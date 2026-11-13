@@ -13,7 +13,7 @@ public class UserRepository {
         this.userMapper = userMapper;
     }
 
-    public User selectUserByUsername(String name){
+    public User selectUserByUsername(String username){
         return userMapper.selectUserByUsername(username);
     }
 }
